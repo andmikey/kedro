@@ -758,10 +758,7 @@ A decorator can also be applied to the pipeline rather than each node. In `src/k
 
 ```python
 from kedro_tutorial.pipelines.data_engineering.nodes import (
-    create_master_table,
     log_running_time,
-    preprocess_companies,
-    preprocess_shuttles,
 )
 ```
 
